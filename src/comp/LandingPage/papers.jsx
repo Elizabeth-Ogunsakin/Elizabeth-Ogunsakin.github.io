@@ -14,7 +14,7 @@ const papers = [
     id: 4,
     title: "Hierarchical Task Framing for Prevention-Oriented Cervical Lesion Detection Using Nigerian Colposcopy Images",
     authors: "Adebesin, A., Ugbo, I., Ogundeji, O., Shiaki, N., Adegoke, S., Shiaki, T., Gbayisomore, T., Iorumbur, A., Raymond, C.",
-    venue: "MICCAI 2026 in review",
+    venue: "MIRASOL @ MICCAI 2026",
     year: "2026",
     links: []
   },
