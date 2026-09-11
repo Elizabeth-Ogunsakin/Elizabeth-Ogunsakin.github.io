@@ -1,6 +1,6 @@
 import Hero from "../comp/LandingPage/hero"
 import News from "../comp/LandingPage/news"
-import Papers from "../comp/LandingPage/papers"
+//import Papers from "../comp/LandingPage/papers"
 import Experience from "../comp/LandingPage/experience"
 import Projects from "../comp/LandingPage/projects"
 import Footer from "../comp/LandingPage/footer"
@@ -11,7 +11,7 @@ const LandingPage = () => {
     <>
       <Nav />
       <Hero />
-      <Papers />
+      {/* <Papers /> */}
       <Experience />
       <Projects />
       <News />

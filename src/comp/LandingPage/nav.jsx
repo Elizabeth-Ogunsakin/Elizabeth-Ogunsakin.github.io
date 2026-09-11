@@ -15,7 +15,7 @@ const Nav = () => {
       // Only handle scroll-based navigation on the home page
       if (location.pathname === '/') {
         // Get all sections
-        const sections = ['hero', 'publications', 'experience', 'news', 'projects'];
+        const sections = ['hero', 'experience', 'news', 'projects'];
         
         // Find which section is currently in view
         for (const section of sections) {
@@ -63,6 +63,8 @@ const Nav = () => {
             Home
           </Link>
 
+          {/*
+
           <Link
             to="/"
             className={location.pathname === '/' && activeSection === 'publications' ? 'active' : ''}
@@ -74,6 +76,7 @@ const Nav = () => {
           >
             Publications
           </Link>
+          */}
 
           <Link
           to="/"
@@ -109,13 +112,14 @@ const Nav = () => {
             News
           </Link>
 
-          
+          {/*
           <Link
             to="/blog"
             className={location.pathname === '/blog' ? 'active' : ''}
           >
             Blog
           </Link>
+          */}
         </nav>
       </div>
     </NavBar>

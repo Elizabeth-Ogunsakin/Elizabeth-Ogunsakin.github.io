@@ -1,3 +1,4 @@
+/*
 import { BlogSection } from "../assets/styles";
 import Nav from "../comp/LandingPage/nav";
 import Footer from "../comp/LandingPage/footer";
@@ -175,3 +176,4 @@ const Blog = () => {
 };
 
 export default Blog;
+*/

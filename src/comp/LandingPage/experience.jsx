@@ -2,28 +2,33 @@ import { ExperienceSection } from '../../assets/styles';
 
 const experienceData = [
    {
-    role: "Data Scientist",
-    company: "Karimi Talent",
-    duration: "Nov 2025 - Present",
-    tags: ["Recommender Systems", "GenAI", "RAG", "LLM"],
-    description: "Developed LLMs for Recommendation Systems in the Talent space",
+    role: "Data Analytics Instructor",
+    company: "Curators University",
+    duration: "Jan 2026 - Present",
+    tags: ["Data Analytics", "SQL", "Database Management", "Machine Learning"],
+    description: "Delivered practical training in data analytics, database concepts, and machine learning foundations, helping learners develop skills for data-driven problem solving.",
     achievements: [
-      "Built the automated vacancy ingestion pipeline behind Karimi's Discover Jobs and Company feature with over 3,800+ companies and 60,000+ job vacancies, Firecrawl scraping with LLM extraction, and a 2,500+ parser library with content-hash caching that reduced recurring API cost to near zero.",
-      "Evaluated and improved the semantic job-matching engine (instructor embeddings + FAISS), building an evaluation harness for HyDE, query rewriting, and profile-augmented retrieval."
+      "Trained learners in data analytics workflows, including Excel, SQL, data cleaning, and visualization techniques.",
+        "Introduced database management concepts, relational databases, and SQL querying for effective data storage and retrieval.",
+        "Taught foundational machine learning concepts, including predictive modeling workflows and model evaluation techniques.",
+        "Designed practical exercises and projects to help learners apply analytical approaches to real-world datasets."
     ],
   },  
 
    {
-    role: "Research Fellow",
-    company: "SPARK (MICCAI-Endorsed Academy for African Medical Imaging Translation)",
-    duration: "Feb 2026 - June 2026",
-    tags: ["Medical Imaging", "Computer Vision", "Healthcare", "Deep Learning"],
-    description: "Led a six-person team on a cervical cancer screening study using a Nigerian colposcopy dataset",
+    role: "Data Science & Machine Learning Tutor",
+    company: "3MTT DeepTech_Ready Program",
+    duration: "Sep 2025 - Dec 2025",
+    tags: ["Machine Learning", "Deep Learning", "Computer Vision", "Artificial Intelligence"],
+    description: "Mentored learners in developing practical machine learning skills, from data preprocessing and exploratory analysis to building and evaluating predictive AI models.",
     achievements: [
-      "Led a six-person team developing cervical lesion grading pipelines on a Nigerian colposcopy dataset, benchmarking EfficientNet-B3 against a Swin Transformer–autoencoder–BiGRU–deep belief network ensemble under strict patient-level splits with macro-recall as the clinical safety metric.",
-      "Proposed a hierarchical task framing decomposing lesion grading into clinically motivated binary stages, outperforming flat 4-class and 3-class framings in precancerous recall across three seeds"
+      "Delivered training on machine learning workflows, including data preparation, feature engineering, model development, and performance evaluation.",
+        "Guided learners through supervised and unsupervised learning algorithms such as regression, classification, clustering, and dimensionality reduction.",
+        "Introduced deep learning concepts and neural network fundamentals, preparing learners for advanced AI applications.",
+        "Supported learners in applying machine learning techniques to solve real-world problems using Python-based tools."
     ],
   },
+  /*
 
   {
     role: "Data Science Tutor",
@@ -55,6 +60,7 @@ const experienceData = [
     //   { text: "ML Collective Overview", url: "#" }
     // ]
   },
+  /*
   {
     role: "Data Science Intern",
     company: "Pariti",
@@ -70,6 +76,7 @@ const experienceData = [
     //   { text: "Cakasa Engineering Services", url: "#" }
     // ]
   },
+  /*
   {
     role: "AI/ML Intern",
     company: "Strategies and Yields Limited (SYL)",
@@ -84,7 +91,7 @@ const experienceData = [
     // links: [
     //   { text: "Credo Projects", url: "#" }
     // ]
-  }
+  }*/
 ];
 
 const Experience = () => {

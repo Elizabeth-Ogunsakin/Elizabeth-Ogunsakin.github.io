@@ -1,6 +1,7 @@
 import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
+  /*
   {
     id: 2,
     date: "Aug 2025",
@@ -27,27 +28,34 @@ const newsItems = [
       </>
     ),
   },
+  */
   {
-    id: 2,
-    date: "May 2025",
+    id: 1,
+    date: "Sept 2026",
     description: (
       <>
-        I was featured as a guest on the <a
-          href="https://www.linkedin.com/company/carpe-datum-podcast/posts/"
+        I was invited as a speaker by the <a
+          href="https://lnkd.in/p/eha7pjZm"
           target="_blank"
           rel="noopener noreferrer"
-        > Carpe Datum Podcast.</a>, where I shared insights on balancing multiple projects, building an effective digital portfolio, navigating academics alongside tech careers, and leveraging diverse internship experiences for professional growth. I shared insights on how community, collaboration, and leadership shape personal and professional growth with a diverse academic audience. <a
-        href="https://open.spotify.com/episode/47IXxpH6N3qBdGYzGYmDtz?si=e3e9ab9c20174c46&nd=1&dlsi=38e5dfcec2d74bbb"
-        target="_blank"
-        rel="noopener noreferrer"
-      >Listen here!</a>
+        > DSN OAU Chapter</a>, during an information session for the DSN AI Bootcamp 2026. I spoke on the Data Analytics & Data Science Tracks, guiding participants on tackling the “Audit the Dashboard” challenge through identifying dataset errors, validating management claims, and building clean Power BI and Excel dashboards. I also shared insights on structuring a strong research abstract for the Poster Track, covering problem statements, methodology, and real-world impact. 
         
       </>
     ),
   },
   {
+  id: 2,
+  date: "Feb 2026",
+  description: (
+    <>
+      Selected through a competitive process as a recipient of the <strong>Prof. Anthony Uyi Afuwape Scholarship</strong> by the <strong>Department of Mathematics, Obafemi Awolowo University (OAU)</strong>, in recognition of my commitment to Mathematics, academic growth, and community service. This scholarship supports my continued journey toward applying mathematical knowledge to solve real-world problems.
+    </>
+  ),
+},
+  /*
+  {
     id: 2,
-    date: "May 2025",
+    date: "Sept 2026",
     description: (
       <>
         I was invited as a panel speaker at OAU Finance Week ’25, contributing to a session titled <a
@@ -59,45 +67,46 @@ const newsItems = [
       </>
     ),
   },
-  {
-    id: 7,
-    date: "May 2025",
-    description: (
-      <>
-        I spoke as a panelist at the STEM Conference organized by <a href="https://www.linkedin.com/showcase/stem-a-school-by-pha/about/" target="_blank" rel="noopener noreferrer"> STEM-A-SCHOOL by PHA</a> during an undergraduate panel session, on the topic <a href="https://www.linkedin.com/posts/stem-a-school-by-pha_stemcon3-stemconoau-stemcon2025-activity-7320806268665798657-N_cZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer"> From Ideas to Impact: Driving STEM Innovation Across Africa</a> where I shared insights from my project Foodie Lens, discussed its inspiration and impact, and spoke on the importance of community in driving innovation 
-      </>
-    ),
-  },
-  {
-    id: 1,
-    date: "April 2025",
-    description: (
-      <>
-        I spoke as a panelist at The Studentpreneur Conference, where I engaged undergraduate students in a career-focused discussion on <a href="https://www.linkedin.com/posts/aramide-adebesin_hello-fam-earlier-this-month-i-had-activity-7320381242997129219-6fpV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer"> Academics, Purpose and Life</a>, sharing practical guidance on navigating career paths, preparing for opportunities, and making intentional professional decisions.
-       
-      </>
-    ),
-  },
-  {
-    id: 2,
-    date: "March 2025",
-    description: (
-      <>
-       Organized a professional development session on <a href="https://www.linkedin.com/posts/women-in-data-science-ile-ife_we-held-an-event-in-collaboration-with-dsn-ugcPost-7319082979056623616-z-Nf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer"> Effective Way of Using LinkedIn and How to Get Brand Visibility</a> as part of a collaboration between <a href="https://www.linkedin.com/company/dsn-oau/posts/?feedView=all" target="_blank" rel="noopener noreferrer"> Data Science Nigeria (DSN) OAU</a> and <a href="https://www.linkedin.com/company/women-in-data-science-ile-ife/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer"> Women in Data Science (WiDS) Ile-Ife</a>, featuring an invited speaker and facilitating discussions on intentional brand building and career growth.
-      </>
-    ),
-  },
+  */
   {
     id: 3,
-    date: "Feb 2025",
+    date: "Jan 2026",
     description: (
       <>
-        Led and coordinated a <a href="https://www.linkedin.com/posts/aramide-adebesin_hello-fam-these-past-2-weeks-i-have-activity-7314944833528193025-9ITp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer"> two-week physical bootcamp </a> focused on Data Analysis, Data Science/ML, and Deep Learning/AI, supporting 50+ participants in building strong technical foundations. I worked closely with a core team and volunteer tutors to deliver structured learning sessions and hands-on guidance. 
+       Volunteered as a Data Analytics Instructor for the<a href="https://www.linkedin.com/posts/stephen-babatunde-6868611b4_im-excited-to-share-another-milestone-for-ugcPost-7409543545755217920-vsal?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwBU3EBFWmeTyvJu0ggthSsa8o2aVV-QtY"> Cowrywise OAU Skill Acquisition Program</a> delivering training in data analysis to students as part of a six-week digital skills initiative. Contributed to equipping participants with practical technical skills while collaborating with other facilitators to support over 280 active learners throughout the program.
       </>
     ),
   },
   {
     id: 4,
+    date: "July 2025",
+    description: (
+      <>
+        I spoke as a panelist <a href="https://www.linkedin.com/posts/elizabeth-ogunsakin_hello-fam-its-been-a-while-here-a-few-activity-7355952589957406720-il0E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwBU3EBFWmeTyvJu0ggthSsa8o2aVV-QtY"> Think Different 3.0 Mathematics Conference</a>, themed “Maths in Motion: From Equations to Innovation,” where I engaged with undergraduate and secondary school students on the role of mathematics in driving problem-solving, creativity, and emerging technologies, including artificial intelligence and machine learning.
+       
+      </>
+    ),
+  },
+  {
+    id: 5,
+    date: "June 2025",
+    description: (
+      <>
+       Selected as one of the 31 participants from over 700 applicants across 19 countries for the  <a href="https://www.linkedin.com/posts/dsnai_datasciencenigeria-dsncommunity-dsnladiesinai-ugcPost-7334210183646093314-rdwo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwBU3EBFWmeTyvJu0ggthSsa8o2aVV-QtY" target="_blank" rel="noopener noreferrer"> DSN Ladies In AI Mentorship Programme</a> and advanced as one of the 10 finalists. Completed the Chatbot Creation track, where I developed practical skills in building AI-powered conversational systems and applying artificial intelligence techniques to solve real-world problems
+      </>
+    ),
+  },
+  {
+    id: 6,
+    date: "Feb 2025",
+    description: (
+      <>
+        As the<a href="https://www.linkedin.com/posts/dsnai_datasciencenigeria-dsncommunity-spotlights-activity-7303343728369324032-0jxP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer" > Data Science Nigeria (DSN) OAU Chapter Lead </a> I coordinated and participated in a two-week physical bootcamp focused on Data Analysis, Data Science/Machine Learning, and Deep Learning/AI. I contributed to the learning sessions while collaborating with core team members and volunteer tutors to support 50+ participants through structured training and hands-on guidance.
+      </>
+    ),
+  },
+  {
+    id: 7,
     date: "Feb 2025",
     description: (
       <>
@@ -105,24 +114,17 @@ const newsItems = [
       </>
     ),
   },
+
   {
-    id: 6,
+    id: 8,
     date: "Jan 2025",
     description: (
       <>
-        As the Community Lead of <a href="https://www.linkedin.com/posts/adanmaiheanacho_womenindatascience-ileife-deeplearningindaba-activity-7293215555694522370-Zh1m?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU," target="_blank" rel="noopener noreferrer"> Women in Data Science (WiDS) Ile-Ife </a>and <a href="https://www.linkedin.com/posts/aramide-adebesin_rwanda-machinelearning-datascience-activity-7292939136842264577-jl9O?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU," target="_blank" rel="noopener noreferrer"> Data Science Nigeria OAU </a>, I hosted a Deep Learning Indaba Info Session, featuring guest speakes and facilitating discussions to guide participants through the conference opportunities and application process.
-      </>
-    ),
-  },
-  {
-    id: 5,
-    date: "Jan 2025",
-    description: (
-      <>
-        I was selected as the Community Lead of the <a href="https://www.linkedin.com/posts/aramide-adebesin_hi-fam-last-weekend-i-had-the-opportunity-activity-7293623768986349568-dgjJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer">Data Science Nigeria (DSN) OAU Chapter</a>, where I oversee community engagement, strategic planning, and event coordination. As part of this role, I hosted a physical community meetup and guided discussions on community achievements and future goals.
+        I was selected as the Community Lead of the <a href="https://www.linkedin.com/posts/dsn-oau_greetings-from-dsn-oau-the-past-two-ugcPost-7316417757925851136-Gc1I?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwBU3EBFWmeTyvJu0ggthSsa8o2aVV-QtY" target="_blank" rel="noopener noreferrer">Data Science Nigeria (DSN) OAU Chapter</a>, where I led community engagement, coordinated technical activities, and supported initiatives aimed at promoting AI and data science learning. I organized community meetups, facilitated discussions, and guided members on opportunities for growth in the data science ecosystem.
       </>
     )
   },
+  /*
   {
     id: 7,
     date: "Jan, 2025",
@@ -159,24 +161,26 @@ const newsItems = [
       </>
     ),
   },
+  */
   {
-    id: 11,
+    id: 9,
     date: "Oct 2024",
     description: (
       <>
-        Selected through a competitive process to attend the all-expense-paid <a href="https://www.linkedin.com/posts/aramide-adebesin_dsnxmicrosoftng-dsnaibootcamp2024-aibootcamp2024-activity-7253684531872890880-mTys?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer"> Data Science Nigeria (DSN) Artificial Intelligence Bootcamp 2024</a> ,engaging in intensive AI training alongside peers and industry experts.
+        Selected through a competitive process to attend the all-expense-paid <a href="https://www.linkedin.com/posts/elizabeth-ogunsakin_mydsnaibootcampstory-dsnaibootcamp2024-datasciencenigeria-activity-7252896215288152064-7Qki?utm_source=share&utm_medium=member_desktop&rcm=ACoAADwBU3EBFWmeTyvJu0ggthSsa8o2aVV-QtY" target="_blank" rel="noopener noreferrer"> Data Science Nigeria (DSN) Artificial Intelligence Bootcamp 2024</a> ,where I received intensive hands-on training in artificial intelligence and machine learning.
       </>
     ),
   },
   {
-    id: 12,
-    date: "Sept 2024",
+    id: 10,
+    date: "2023/2024",
     description: (
       <>
-        Facilitated a <a href="https://www.linkedin.com/posts/aramide-adebesin_boost-your-coding-with-github-copilot-activity-7241775373644943360-APAE?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer"> hands-on workshop</a> on using GitHub Copilot with Python to improve coding efficiency, guiding participants through practical workflows and best practices as part of the Microsoft Learn Student Ambassadors program.
+        Selected as the Data Analytics Lead for the <a href="https://www.linkedin.com/in/elizabeth-ogunsakin/overlay/Position/2465616069/treasury/?profileId=ACoAADwBU3EBFWmeTyvJu0ggthSsa8o2aVV-QtY" target="_blank" rel="noopener noreferrer"> Google Developer Student Club (GDSC) OAU Chapter</a>, leading initiatives to promote data-driven problem solving through workshops, peer learning sessions, and practical projects in data analytics and machine learning.
       </>
     ),
   },
+  /*
   {
     id: 13,
     date: "Aug 2024",
@@ -248,7 +252,7 @@ const newsItems = [
        I  <a href="https://www.linkedin.com/posts/aramide-adebesin_hello-everyone-i-have-exciting-news-to-activity-7130955577525960704-3zzb?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADSyGbUB1N3kuzo3tUHflsJwUQOC7VuzXqU" target="_blank" rel="noopener noreferrer">spoke</a> at the Data Science Masterclass hosted by <a href="https://www.regenesys.net/?utm_source=ORG-SOCIAL&utm_medium=ORG-LI&utm_campaign=ORG-LI-RainerDigital" target="_blank" rel="noopener noreferrer"> Digital Regenesys </a> (Regenesys Business School), reaching over 1,000 students and alumni 
       </>
     ),
-  }
+  }*/
 ];
 
 const News = () => {

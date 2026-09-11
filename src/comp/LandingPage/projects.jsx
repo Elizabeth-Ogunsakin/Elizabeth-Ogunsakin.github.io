@@ -1,49 +1,52 @@
+
 import { useState } from 'react';
 import { ProjectsSection } from '../../assets/styles';
-import image2 from "../../assets/img/proj1.png"
-import image3 from "../../assets/img/proj2.png"
-import image1 from "../../assets/img/proj3.png"
+//import image2 from "../../assets/img/proj1.png"
+//import image3 from "../../assets/img/proj2.png"
+//import image1 from "../../assets/img/proj3.png"
 
 
 const projectsData = [
     {
-      title: "MediVoice: Multimodal AI for Accessible Medication Management:",
-      category: "GenAI",
-      thumbnail: image2, 
-      tags: ["NLP", "Python", 'Huggingface'],
+      title: "Maternal Risk Predictor: AI-Powered Maternal Health Risk Assessment",
+      category: "Machine Learning",
+      // thumbnail: image2, 
+      tags: ["Python", "Scikit-learn", "Streamlit", "Healthcare AI"],
       description:
-        "MediVoice is a voice-based mobile app that helps visually impaired people manage their medications on their own. With this app, users can take a picture of a drug label and ask questions by speaking.",
-      highlights: [
-        "Improved medication access for visually impaired",
-        "Presented it as a poster at DLI 2025",
-        "Developed it into a research paper"
+        "A machine learning-powered web application that predicts maternal health risk levels from key health indicators, enabling early risk assessment and supporting clinical decision-making.",
+  highlights: [
+        "Designed to support early identification of high-risk pregnancies",
+    "Developed, evaluated, and deployed a healthcare machine learning model with Streamlit"
       ],
       links: {
-        github: "https://github.com/Adebesin-Aramide/Medivoice", 
-        // article: "https://medium.com/maternify-article" 
+        github: "https://github.com/Elizabeth-Ogunsakin/Maternal-Risk-Predictor", 
+        live: "https://maternal-risk-predictor.streamlit.app/" 
       }
     },
     {
-      title: "Foodie Lens - Yoruba Traditional Dishes Identification App:",
-      category: "Deep Learning",
-      thumbnail: image3, 
-      tags: ["Python", "Computer Vision", "Streamlit"],
+      title: "Ulcer Meal Recommendation System",
+      category: "Machine Learning",
+      //thumbnail: image3, 
+      tags: ["Python", "Scikit-learn", "XGBoost", "Random Forest"],
       description:
-        "Foodie Lens is a machine learning-based application designed to identify various traditional Yoruba dishes from images and provide the corresponding recipes and cooking instructions",
+        "A machine learning system that predicts ulcer pain triggers using patient symptoms, medication patterns, and lifestyle factors, then recommends stomach-friendly African meals based on the predicted risk.",
+
       highlights: [
-        "Achieved high accuracy in classification",
-        "Curated food dataset as a result of this projet",
-        "Presented it as a poster at DSN AI Bootcamp 2024 and won second best poster award"
+        "Compared Random Forest and XGBoost models using hyperparameter tuning",
+    "Performed feature engineering and multi-label encoding for meals, symptoms, and trigger causes",
+    "Built an end-to-end prediction pipeline with personalized meal recommendations"
       ],
       links: {
-        github: "https://github.com/Adebesin-Aramide/Foodie_lens", 
-        website: "https://huggingface.co/spaces/Aramide/foodie_lens" 
+        github: "https://github.com/Elizabeth-Ogunsakin/ulcer-meal-recommender", 
+        //website: "https://huggingface.co/spaces/Aramide/foodie_lens" 
       }
-    },
+    }
+    /*
+
     {
       title: "UlcerMate: AI-Powered Ulcer Management System",
       category: "Machine Learning",
-      thumbnail: image1, 
+      //thumbnail: image1, 
       tags: ["Python", "Scikit learn", "ML"],
       description:
         "UlcerMate is an AI-powered app that helps users log meals, symptoms, and medications to identify personal ulcer triggers and detect risk patterns.",
@@ -56,6 +59,7 @@ const projectsData = [
         // article: "https://medium.com/cassava-leaf-disease" 
       }
     }
+      */
   ];
 
 
@@ -87,6 +91,7 @@ const Projects = () => {
       <div className="projects-grid">
         {filteredProjects.map((project, index) => (
           <div key={index} className="project-card">
+            {/*
             <div className="project-image">
               <img src={project.thumbnail} alt={project.title} />
               <div className="project-overlay">
@@ -104,6 +109,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            */}
 
             <div className="project-content">
               <h3>{project.title}</h3>

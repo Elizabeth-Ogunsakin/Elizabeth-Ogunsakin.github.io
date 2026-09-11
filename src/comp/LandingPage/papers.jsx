@@ -1,3 +1,4 @@
+/*
 import { PapersSection } from "../../assets/styles";
 
 const papers = [
@@ -76,3 +77,4 @@ const Papers = () => {
 };
 
 export default Papers;
+*/
