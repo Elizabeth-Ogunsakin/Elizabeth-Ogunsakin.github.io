@@ -1,16 +1,16 @@
 
 import { useState } from 'react';
 import { ProjectsSection } from '../../assets/styles';
-//import image2 from "../../assets/img/proj1.png"
-//import image3 from "../../assets/img/proj2.png"
-//import image1 from "../../assets/img/proj3.png"
+import image2 from "../../assets/img/maternalmate.jpg"
+import image3 from "../../assets/img/proj2.png"
+import image1 from "../../assets/img/ulcermate.jpg"
 
 
 const projectsData = [
     {
       title: "Maternal Risk Predictor: AI-Powered Maternal Health Risk Assessment",
       category: "Machine Learning",
-      // thumbnail: image2, 
+      thumbnail: image2, 
       tags: ["Python", "Scikit-learn", "Streamlit", "Healthcare AI"],
       description:
         "A machine learning-powered web application that predicts maternal health risk levels from key health indicators, enabling early risk assessment and supporting clinical decision-making.",
@@ -26,7 +26,7 @@ const projectsData = [
     {
       title: "Ulcer Meal Recommendation System",
       category: "Machine Learning",
-      //thumbnail: image3, 
+      thumbnail: image1, 
       tags: ["Python", "Scikit-learn", "XGBoost", "Random Forest"],
       description:
         "A machine learning system that predicts ulcer pain triggers using patient symptoms, medication patterns, and lifestyle factors, then recommends stomach-friendly African meals based on the predicted risk.",
@@ -91,7 +91,7 @@ const Projects = () => {
       <div className="projects-grid">
         {filteredProjects.map((project, index) => (
           <div key={index} className="project-card">
-            {/*
+            {
             <div className="project-image">
               <img src={project.thumbnail} alt={project.title} />
               <div className="project-overlay">
@@ -109,7 +109,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            */}
+            }
 
             <div className="project-content">
               <h3>{project.title}</h3>

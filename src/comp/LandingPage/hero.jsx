@@ -1,5 +1,5 @@
 import { HeroContainer } from "../../assets/styles"
-import profile from "../../assets/img/Elizabeth.jpeg"
+import profile from "../../assets/img/sample1.jpg"
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero-text">
           <div className="social-links">
             <a href="mailto:lizabethtozab@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a href="https://drive.google.com/file/d/1zfo1qMiF0SwVEHC4IYKH-d2EmVARPGu3/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="https://drive.google.com/file/d/1wXjexl7zgi0nvJzqvT2_yDk3PDH2GYFR/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">CV</a>
             <a href="https://github.com/Elizabeth-Ogunsakin" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/elizabeth-ogunsakin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://x.com/tozabeth" target="_blank" rel="noopener noreferrer">Twitter</a>

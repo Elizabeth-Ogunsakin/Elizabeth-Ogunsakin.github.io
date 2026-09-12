@@ -7,6 +7,7 @@ const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
   const location = useLocation();
+  
 
   useEffect(() => {
     const handleScroll = () => {
